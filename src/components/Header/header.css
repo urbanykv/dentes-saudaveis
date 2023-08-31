@@ -1,0 +1,39 @@
+header{
+    width: 100%;
+    background-color: #1D3371;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 800px;
+    border-bottom: 1px solid white;
+    position: fixed;
+}
+
+.logo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    gap: 5px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+header a{
+    color: white;
+    text-decoration-line: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 5px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+}
+
+header a:hover{
+    border-bottom: 2px solid white;
+}

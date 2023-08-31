@@ -1,0 +1,136 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+}
+
+.banner{
+    background-color: #1D3371;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1{
+    color: #F2C34F;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.banner > p{
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.banner span{
+    color: #F2C34F;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.especialidades{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 340px;
+
+}
+
+.esp{
+    width: 150px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.aparelho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+
+.aparelho h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 25px 0px;
+    font-size: 35px;
+}
+
+.aparelho span{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.aparelho img{
+    width: 800px;
+}
+
+.cards{
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.home-depoimentos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-sessao{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 35px;
+    margin: 50px 0px;
+}
+
+.lista-depoimentos{
+    list-style: none;
+    display: flex;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img-aparelho{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 300px;
+}
+
+.contato{
+    padding: 15px 20px;
+    background-color: #1D3371;
+    text-decoration-line: none;
+    color: white;
+    font-weight: bold;
+    margin: 25px 0px;
+}
+
+.contato:hover{
+    background-color: #172857;
+}
