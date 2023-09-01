@@ -13,8 +13,8 @@ function Header(){
                 <h1>Dentes Saudáveis</h1>
             </div>
             <nav>
-                <Link to='/' title={title.innerHTML = "Dentes Saudáveis | Início"}>Home</Link>
-                <Link to='/contatos' title={title.innerHTML = "Dentes Saudáveis | Contatos"}>Contato</Link>
+                <Link to='/'>Home</Link>
+                <Link to='/contatos'>Contato</Link>
             </nav>
         </header>
     )
