@@ -6,7 +6,7 @@ import Contatos from "../pags/Contatos/script";
 function Rotas(){
     const title = document.querySelector('title')
     return(
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route exact path="/" element={<Home/>}/>
                 <Route path="/contatos" element={<Contatos/>}/>
